@@ -9,79 +9,88 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb      : 255, 255, 255;
+    --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb  : 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
-  color           : var(--foreground-rgb);
+  color: var(--foreground-rgb);
   background-color: var(--background-rgb);
 }
 
 .main-logo {
-  color      : #000;
+  color: #000;
   font-family: Martel;
-  font-size  : 22px;
-  font-style : normal;
+  font-size: 22px;
+  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 nav a {
-  color      : #000;
+  color: #000;
   font-family: Martel;
-  font-size  : 14px;
-  font-style : normal;
+  font-size: 14px;
+  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 .beauty-product-title {
-  color         : #000;
-  font-family   : Martel;
-  font-size     : 70px;
-  font-style    : normal;
-  font-weight   : 700;
-  line-height   : normal;
+  color: #000;
+  font-family: Martel;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   letter-spacing: 4.2px;
 }
 
 .beauty-product-title span {
-  color         : #FFAF00;
-  font-family   : Martel;
-  font-size     : 70px;
-  font-style    : normal;
-  font-weight   : 700;
-  line-height   : normal;
+  color: #ffaf00;
+  font-family: Martel;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   letter-spacing: 4.2px;
 }
 
 .beauty-product-slogan {
-  color      : #000;
+  color: #000;
   font-family: Martel;
-  font-size  : 52px;
-  font-style : normal;
+  font-size: 52px;
+  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .beauty-product-message {
-  color      : #777;
+  color: #777;
   font-family: Inter;
-  font-size  : 18px;
-  font-style : normal;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.view-details-btn{
-  color: #FFF;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.view-details-btn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero-right-image {
+  border-radius: 200px 10px 10px 10px;
+  background: url("../public/images/Rectangle-277.png"),
+    rgb(255, 175, 0) -84.476px 47.831px / 180.475% 100% no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+  width: 267px;
+  height: 495px;
+  flex-shrink: 0;
 }
 @layer utilities {
   .text-balance {
