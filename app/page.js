@@ -1,6 +1,7 @@
 import Image from "next/image";
 import EllipseImg_67 from "../public/images/Ellipse-67.svg";
 import EllipseImg_70 from "@/public/assets/images/Ellipse-70.png";
+import EllipseImg_72 from "@/public/assets/images/Ellipse-72.svg";
 export default function Home() {
   return (
     <main>
@@ -209,6 +210,40 @@ export default function Home() {
                 </svg>
                 <div className="absolute top-0 left-0 right-0">
                   <Image src={EllipseImg_70} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container max-w-7xl px-4 mt-10 md:mt-5">
+          <div className="md:flex gap-4">
+            <div className="my-1 md:my-0 w-full md:w-1/4">
+              <h3 className="meterial-care-title">Meterial</h3>
+              <p className="meterial-care-paragraph mt-4">
+                K-Beauty got us hooked on korean BB Creams and jelly cleansers
+              </p>
+            </div>
+            <div className="my-1 md:my-0 w-full md:w-1/4">
+              <h3 className="meterial-care-title">Care</h3>
+              <p className="meterial-care-paragraph mt-4">
+                K-Beauty got us hooked on korean BB Creams and jelly cleansers
+              </p>
+            </div>
+            <div className="my-1 md:my-0 w-full md:w-1/2">
+              <div className="relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="73"
+                  height="73"
+                  viewBox="0 0 73 73"
+                  fill="none"
+                >
+                  <circle cx="36.5" cy="36.5" r="36.5" fill="#FFAF00" />
+                </svg>
+                <div className="absolute top-0 left-0 right-0">
+                  <Image src={EllipseImg_72} />
                 </div>
               </div>
             </div>
