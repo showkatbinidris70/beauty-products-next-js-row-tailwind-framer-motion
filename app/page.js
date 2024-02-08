@@ -24,11 +24,11 @@ export default function Home() {
         <div className="md:flex gap-4">
           {/* hero section left */}
           <div className="my-5 md:my-0 w-full md:w-3/5">
-            <h1 className="beauty-product-title mt-12">
+            <h1 className="beauty-product-title mt-12 text-4xl md:text-7xl">
               True
-              <span>Beauty</span>
+              <span> Beauty</span>
             </h1>
-            <h2 className="beauty-product-slogan mt-3">
+            <h2 className="beauty-product-slogan mt-3 text-2xl md:text-5xl">
               can radiste your uniqueness
             </h2>
             <p className="beauty-product-message mt-12">
@@ -197,7 +197,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="relative mt-5 m-2">
+              <div className="relative mt-5 m-2 hidden md:block">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="73"
