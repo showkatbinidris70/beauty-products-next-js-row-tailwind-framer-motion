@@ -105,6 +105,36 @@ nav a {
   font-weight: 300;
   line-height: normal;
 }
+.company-age-and-client {
+  color: #000;
+  font-family: Martel;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.company-age-and-client span {
+  color: #ffaf00;
+  font-family: Martel;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.rating-point {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.ratings {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

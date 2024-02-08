@@ -2,6 +2,8 @@ import Image from "next/image";
 import EllipseImg_67 from "../public/images/Ellipse-67.svg";
 import EllipseImg_70 from "@/public/assets/images/Ellipse-70.png";
 import EllipseImg_72 from "@/public/assets/images/Ellipse-72.svg";
+import PngwingImg_2 from "@/public/assets/images/pngwing-2.png";
+import PngwingImg_1 from "@/public/assets/images/pngwing-1.png";
 export default function Home() {
   return (
     <main>
@@ -247,6 +249,70 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#FAFBFF] my-28">
+        <div className="flex justify-between items-center">
+          <div>
+            <Image src={PngwingImg_2} />
+          </div>
+          <div className="container max-w-7xl px-4 py-12">
+            <div className="md:flex gap-4">
+              <div className="my-1 md:my-0 w-full md:w-2/3">
+                <h2 className="company-age-and-client max-w-xl text-xl md:text-3xl">
+                  Trusted By Over <span>400,000</span>+<span>client</span>{" "}
+                  worldwide since <span>2002</span>
+                </h2>
+              </div>
+              <div className="my-1 md:my-0 w-full md:w-1/3">
+                <div className="flex gap-20">
+                  <div>
+                    <h3 className="flex justify-center rating-point">4.6</h3>
+                    <p className="flex justify-center mt-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="92"
+                        height="16"
+                        viewBox="0 0 92 16"
+                        fill="none"
+                      >
+                        <path
+                          d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                          fill="#FFAF00"
+                        />
+                        <path
+                          d="M27 0L28.7961 5.52786H34.6085L29.9062 8.94427L31.7023 14.4721L27 11.0557L22.2977 14.4721L24.0938 8.94427L19.3915 5.52786H25.2039L27 0Z"
+                          fill="#FFAF00"
+                        />
+                        <path
+                          d="M46 0L47.7961 5.52786H53.6085L48.9062 8.94427L50.7023 14.4721L46 11.0557L41.2977 14.4721L43.0938 8.94427L38.3915 5.52786H44.2039L46 0Z"
+                          fill="#FFAF00"
+                        />
+                        <path
+                          d="M65 0L66.7961 5.52786H72.6085L67.9062 8.94427L69.7023 14.4721L65 11.0557L60.2977 14.4721L62.0938 8.94427L57.3915 5.52786H63.2039L65 0Z"
+                          fill="#FFAF00"
+                        />
+                        <path
+                          d="M84 0L85.7961 5.52786H91.6085L86.9062 8.94427L88.7023 14.4721L84 11.0557L79.2977 14.4721L81.0938 8.94427L76.3915 5.52786H82.2039L84 0Z"
+                          fill="#FFAF00"
+                        />
+                      </svg>
+                    </p>
+                    <p className="flex justify-center ratings ">3500 Ratings</p>
+                  </div>
+                  <div>
+                    <h3 className="flex justify-center rating-point">6M+</h3>
+                    <p className="flex justify-center ratings mt-4 max-w-40 text-center">
+                      Worldwide Product sale per year
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <Image src={PngwingImg_1} />
           </div>
         </div>
       </section>
