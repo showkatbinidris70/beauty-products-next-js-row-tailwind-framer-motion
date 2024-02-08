@@ -2,6 +2,9 @@ import Image from "next/image";
 import EllipseImg_67 from "../public/images/Ellipse-67.svg";
 import EllipseImg_70 from "@/public/assets/images/Ellipse-70.png";
 import EllipseImg_72 from "@/public/assets/images/Ellipse-72.svg";
+import EllipseImg_77 from "@/public/assets/images/Ellipse-77.svg";
+import EllipseImg_76 from "@/public/assets/images/Ellipse-76.svg";
+import EllipseImg_78 from "@/public/assets/images/Ellipse-78.svg";
 import PngwingImg_2 from "@/public/assets/images/pngwing-2.png";
 import PngwingImg_1 from "@/public/assets/images/pngwing-1.png";
 import Img_34 from "@/public/assets/images/image-34.png";
@@ -9,6 +12,8 @@ import RectangleImg_284 from "@/public/assets/images/Rectangle-284.png";
 import RectangleImg_285 from "@/public/assets/images/Rectangle-285.png";
 import RectangleImg_286 from "@/public/assets/images/Rectangle-286.png";
 import RectangleImg_287 from "@/public/assets/images/Rectangle-287.png";
+import Img_35 from "@/public/assets/images/image-35.png";
+import Img_36 from "@/public/assets/images/image-36.png";
 export default function Home() {
   return (
     <main>
@@ -553,6 +558,283 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      {/* power of purity */}
+      <section className="power-of-purity bg-[#FAFBFF] pb-10 pt-12">
+        <div className="container max-w-7xl px-4">
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="my-1 md:my-0 w-full">
+              <h2 className="title">
+                The Power <br />
+                of Purity Source
+              </h2>
+              <p className="message mt-8">
+                Inspired by hydration and Japan's beauty rituals, uruoi focuses
+                on the core elements of skincare to combine powerful ingredients
+                backed by science and authentically Japanese minimalist
+                philosophy.
+              </p>
+              <p className="sub-title mt-7">
+                A blessing of water for every skin. Relieving dryness with
+                gentle touch
+              </p>
+              <ul className="mt-7">
+                <li className="flex gap-2 max-w-80">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                  >
+                    <rect
+                      width="11.9569"
+                      height="12"
+                      fill="#F6B325"
+                      fill-opacity="0.31"
+                    />
+                    <path
+                      d="M2.49121 6.5L4.48403 8.5L9.46608 3.5"
+                      stroke="#FFAF00"
+                      stroke-width="2.04493"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p>Our Cosmetics is 100% from Natural Ingredients</p>
+                </li>
+                <li className="flex gap-2 max-w-80">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                  >
+                    <rect
+                      width="11.9569"
+                      height="12"
+                      fill="#F6B325"
+                      fill-opacity="0.31"
+                    />
+                    <path
+                      d="M2.49121 6.5L4.48403 8.5L9.46608 3.5"
+                      stroke="#FFAF00"
+                      stroke-width="2.04493"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p>All of packaging process by modern machine</p>
+                </li>
+                <li className="flex gap-2 max-w-80">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                  >
+                    <rect
+                      width="11.9569"
+                      height="12"
+                      fill="#F6B325"
+                      fill-opacity="0.31"
+                    />
+                    <path
+                      d="M2.49121 6.5L4.48403 8.5L9.46608 3.5"
+                      stroke="#FFAF00"
+                      stroke-width="2.04493"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p>You can return our product if not original</p>
+                </li>
+              </ul>
+            </div>
+            <div className="my-1 md:my-0 w-full relative">
+              <div className="first-img z-10">
+                <Image src={Img_35} className="-mt-20" />
+              </div>
+              <div className="first-img absolute top-10 left-56 1z-10">
+                <Image src={Img_36} className="-mt-28" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Testimoinials */}
+      <section className="testimoinial bg-[#FAFBFF] pb-10 pt-12">
+        <div className="container max-w-7xl px-4">
+          <div className="flex justify-between">
+            <div className="title">Testimoinials</div>
+            <div>Testimoinials</div>
+          </div>
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 mt-10">
+            <div className="my-1 md:my-0 w-full">
+              <div className="card shadow-sm p-10">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="184"
+                    height="32"
+                    viewBox="0 0 184 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M16 0L19.5922 11.0557H31.2169L21.8123 17.8885L25.4046 28.9443L16 22.1115L6.59544 28.9443L10.1877 17.8885L0.783095 11.0557H12.4078L16 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M54 0L57.5922 11.0557H69.2169L59.8123 17.8885L63.4046 28.9443L54 22.1115L44.5954 28.9443L48.1877 17.8885L38.7831 11.0557H50.4078L54 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M92 0L95.5922 11.0557H107.217L97.8123 17.8885L101.405 28.9443L92 22.1115L82.5954 28.9443L86.1877 17.8885L76.7831 11.0557H88.4078L92 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M130 0L133.592 11.0557H145.217L135.812 17.8885L139.405 28.9443L130 22.1115L120.595 28.9443L124.188 17.8885L114.783 11.0557H126.408L130 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M168 0L171.592 11.0557H183.217L173.812 17.8885L177.405 28.9443L168 22.1115L158.595 28.9443L162.188 17.8885L152.783 11.0557H164.408L168 0Z"
+                      fill="#FFAF00"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p className="message mt-3">
+                    K-Beauty got us hooked on Korean BB Creams and jelly
+                    cleansers. J- Beauty convinced us of the benefits of
+                    Japanese essences and sake ingredients.
+                  </p>
+                </div>
+                <div className="flex gap-4 items-center mt-5">
+                  <div>
+                    <Image src={EllipseImg_77} />
+                  </div>
+                  <div>
+                    <p className="name">Sophia</p>
+                    <p className="designation pt-1">CBO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="my-1 md:my-0 w-full">
+              <div className="card shadow-sm p-10">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="184"
+                    height="32"
+                    viewBox="0 0 184 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M16 0L19.5922 11.0557H31.2169L21.8123 17.8885L25.4046 28.9443L16 22.1115L6.59544 28.9443L10.1877 17.8885L0.783095 11.0557H12.4078L16 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M54 0L57.5922 11.0557H69.2169L59.8123 17.8885L63.4046 28.9443L54 22.1115L44.5954 28.9443L48.1877 17.8885L38.7831 11.0557H50.4078L54 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M92 0L95.5922 11.0557H107.217L97.8123 17.8885L101.405 28.9443L92 22.1115L82.5954 28.9443L86.1877 17.8885L76.7831 11.0557H88.4078L92 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M130 0L133.592 11.0557H145.217L135.812 17.8885L139.405 28.9443L130 22.1115L120.595 28.9443L124.188 17.8885L114.783 11.0557H126.408L130 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M168 0L171.592 11.0557H183.217L173.812 17.8885L177.405 28.9443L168 22.1115L158.595 28.9443L162.188 17.8885L152.783 11.0557H164.408L168 0Z"
+                      fill="#FFAF00"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p className="message mt-3">
+                    K-Beauty got us hooked on Korean BB Creams and jelly
+                    cleansers. J- Beauty convinced us of the benefits of
+                    Japanese essences and sake ingredients.
+                  </p>
+                </div>
+                <div className="flex gap-4 items-center mt-5">
+                  <div>
+                    <Image src={EllipseImg_76} />
+                  </div>
+                  <div>
+                    <p className="name">Ainee</p>
+                    <p className="designation pt-1">Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="my-1 md:my-0 w-full">
+              <div className="card shadow-sm p-10">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="184"
+                    height="32"
+                    viewBox="0 0 184 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M16 0L19.5922 11.0557H31.2169L21.8123 17.8885L25.4046 28.9443L16 22.1115L6.59544 28.9443L10.1877 17.8885L0.783095 11.0557H12.4078L16 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M54 0L57.5922 11.0557H69.2169L59.8123 17.8885L63.4046 28.9443L54 22.1115L44.5954 28.9443L48.1877 17.8885L38.7831 11.0557H50.4078L54 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M92 0L95.5922 11.0557H107.217L97.8123 17.8885L101.405 28.9443L92 22.1115L82.5954 28.9443L86.1877 17.8885L76.7831 11.0557H88.4078L92 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M130 0L133.592 11.0557H145.217L135.812 17.8885L139.405 28.9443L130 22.1115L120.595 28.9443L124.188 17.8885L114.783 11.0557H126.408L130 0Z"
+                      fill="#FFAF00"
+                    />
+                    <path
+                      d="M168 0L171.592 11.0557H183.217L173.812 17.8885L177.405 28.9443L168 22.1115L158.595 28.9443L162.188 17.8885L152.783 11.0557H164.408L168 0Z"
+                      fill="#FFAF00"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p className="message mt-3">
+                    K-Beauty got us hooked on Korean BB Creams and jelly
+                    cleansers. J- Beauty convinced us of the benefits of
+                    Japanese essences and sake ingredients.
+                  </p>
+                </div>
+                <div className="flex gap-4 items-center mt-5">
+                  <div>
+                    <Image src={EllipseImg_78} />
+                  </div>
+                  <div>
+                    <p className="name">Alina</p>
+                    <p className="designation pt-1">Example</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* freshness */}
+      <section className="freshness bg-[#FAFBFF] pb-10 pt-12">
+        <div className="container max-w-7xl px-4">
+          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="my-1 md:my-0 w-full item">Mine</div>
+            <div className="my-1 md:my-0 w-full item">TOUCHUP</div>
+            <div className="my-1 md:my-0 w-full item">Skin Fresh </div>
+            <div className="my-1 md:my-0 w-full item">HoolaBuu</div>
           </div>
         </div>
       </section>
