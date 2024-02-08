@@ -37,7 +37,7 @@ export default function Home() {
               ingredients. Probably we were bound to grap our beauty passports
               and move onto another country.And so we did:Now there’s G-Beauty.
             </p>
-            <div className="flex gap-4 mt-10">
+            <div className="flex gap-0 md:gap-4 mt-10">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
