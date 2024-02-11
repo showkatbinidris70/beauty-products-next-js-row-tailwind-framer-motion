@@ -378,7 +378,121 @@ nav a {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 19.6px */
+  line-height: 140%;
+}
+.features h3 {
+  color: var(--white, #e8e9eb);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.features p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.faq .title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.faq .question {
+  color: var(--white, #e8e9eb);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.faq .answer {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+.add-to-cart .title {
+  color: var(--white, #e8e9eb);
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.add-to-cart ul li {
+  list-style-type: disc;
+}
+.add-to-cart .regular-price {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+.add-to-cart .current-price {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+.add-to-cart .add-to-cart-btn {
+  border-radius: 10px;
+  background: var(
+    --ghorar-dim,
+    linear-gradient(0deg, #e8e9eb 0%, rgba(232, 233, 235, 0) 134.17%)
+  );
+  color: var(--Black, #000);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.add-to-cart .buy-now-btn {
+  border-radius: 10px;
+  background: var(--Linear, linear-gradient(0deg, #a04f27 0%, #5d4337 100%));
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.features .useful-link-title {
+  color: var(--white, #e8e9eb);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.features .news-letter .title {
+  color: var(--white, #e8e9eb);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.features .news-letter .desc {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
 }
 @layer utilities {
   .text-balance {
