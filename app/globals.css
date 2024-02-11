@@ -294,6 +294,92 @@ nav a {
   font-weight: 400;
   line-height: normal;
 }
+.customer-reviews .title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.customer-reviews .card {
+  border-radius: 20px;
+  border: 1px solid #1e1f20;
+  background: linear-gradient(149deg, #1e1f20 44.21%, rgba(0, 0, 0, 0) 139.75%);
+}
+.customer-reviews .card:hover {
+  background: #fff;
+  box-shadow: 1px 1px 9.8px 3px rgba(119, 119, 119, 0.25);
+  border-radius: 6px;
+}
+.customer-reviews .card:hover .name {
+  color: #000;
+}
+.customer-reviews .card:hover .title {
+  color: #000;
+}
+.customer-reviews .card .name {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+}
+.customer-reviews .card .title {
+  color: var(--white, #e8e9eb);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.customer-reviews .card .rating {
+  width: 74.72px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.customer-reviews .message {
+  color: #777;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.customer-reviews .name {
+  color: #000;
+  font-family: Martel;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.customer-reviews .designation {
+  color: #000;
+  font-family: Martel;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.products h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.products p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
