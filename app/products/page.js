@@ -2,16 +2,82 @@ import React from "react";
 import Image from "next/image";
 import Img_13 from "@/public/assets/images/image-13.png";
 import Img_14 from "@/public/assets/images/image-14.png";
-import Rectangle_Img_337 from "@/public/assets/images/Rectangle-337.png";
 import Product_Img_1 from "@/public/assets/images/05f15e2874dc3bb3787db5ffa4fdb060-1.png";
 import Product_Img_2 from "@/public/assets/images/4c2419ffddc6b2c95f5084b0f661bb86-2.png";
 import Product_Img_3 from "@/public/assets/images/4c2419ffddc6b2c95f5084b0f661bb86-3.png";
 import Product_Img_4 from "@/public/assets/images/7f51ca5b06f71476e81f0f8b3354913e-4.png";
+
 import Link from "next/link";
+import SwiperSlider from "../components/SwiperSlider";
 
 export default function Products() {
   return (
     <div className="bg-[#000]">
+      <section className="add-to-cart bg-[#1E1F20] pt-32 pb-36">
+        <div className="container max-w-7xl px-4">
+          <div className="grid gap-10 sm:grid-cols-2 px-20">
+            <div className="py-2">
+              <SwiperSlider />
+            </div>
+            <div className="py-2">
+              <div className="title pb-3 pt-1">
+                Contra Watches - Your Attractive Product title goes here
+              </div>
+              <div>
+                <ul className="text-white">
+                  <li className="py-1">
+                    Write a scene (based ondeffecult is jksdfhvhissfddg dsfgg
+                    safghgj fdghjtyfd{" "}
+                  </li>
+                  <li className="py-1">
+                    Write a scene (based ondeffecult is jksdfhvhissfddg dsfgg
+                    safghgj fdghjtyfd{" "}
+                  </li>
+                  <li className="py-1">
+                    Write a scene (based ondeffecult is jksdfhvhissfddg dsfgg
+                    safghgj fdghjtyfd{" "}
+                  </li>
+                  <li className="py-1">
+                    Write a scene (based ondeffecult is jksdfhvhissfddg dsfgg
+                    safghgj fdghjtyfd{" "}
+                  </li>
+                  <li className="py-1">
+                    Write a scene (based ondeffecult is jksdfhvhissfddg dsfgg
+                    safghgj fdghjtyfd{" "}
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-5 items-center">
+                <div className="regular-price line-through">$200/</div>
+                <div className="current-price">$99/-</div>
+              </div>
+              <div className="flex gap-2 justify-between pt-3 pb-5">
+                <div className="flex gap-2  w-1/2 justify-between">
+                  <div className="rounded-lg bg-[#E8E9EB]">
+                    <Link href="#" className="text-5xl px-4 flex items-center">
+                      -
+                    </Link>
+                  </div>
+                  <div className="rounded-lg bg-[#E8E9EB]">
+                    <Link href="#" className="text-5xl px-4 flex items-center">
+                      +
+                    </Link>
+                  </div>
+                </div>
+                <div className="w-1/2 flex justify-end">
+                  <Link
+                    href="#"
+                    className="add-to-cart-btn text-center px-10 flex  items-center"
+                  >
+                    Add to cart
+                  </Link>
+                </div>
+              </div>
+              <div className="buy-now-btn text-center py-4">Buy Now </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="customer-reviews">
         <div className="container max-w-7xl px-4">
           <div className="title text-center pt-5 pb-3">Customer Reviews</div>
@@ -523,7 +589,7 @@ export default function Products() {
         <div className="container max-w-7xl px-4">
           <div className="grid gap-10 sm:grid-cols-2 px-20">
             <div className="py-2">
-              <Image src={Rectangle_Img_337} />
+              <SwiperSlider />
             </div>
             <div className="py-2">
               <div className="title pb-3 pt-1">
