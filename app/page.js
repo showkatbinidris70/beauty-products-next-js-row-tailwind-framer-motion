@@ -662,7 +662,7 @@ export default function Home() {
                 of Purity Source
               </h2>
               <p className="message mt-8">
-                Inspired by hydration and Japan's beauty rituals, uruoi ocuses
+                Inspired by hydration and Japan beauty rituals, uruoi ocuses
                 on the core elements of skincare to combine powerful ingredients
                 backed by cience and authentically Japanese minimalist
                 philosophy.

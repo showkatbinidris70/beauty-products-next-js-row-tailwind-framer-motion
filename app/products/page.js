@@ -279,7 +279,7 @@ export default function Products() {
                   <p className="message mt-3">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which don't
+                    form, by injected humour, or randomised words which dont
                     look even slightly believable.
                   </p>
                 </div>
@@ -330,7 +330,7 @@ export default function Products() {
                   <p className="message mt-3">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which don't
+                    form, by injected humour, or randomised words which dont
                     look even slightly believable.
                   </p>
                 </div>
@@ -381,7 +381,7 @@ export default function Products() {
                   <p className="message mt-3">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which don't
+                    form, by injected humour, or randomised words which dont
                     look even slightly believable.
                   </p>
                 </div>
@@ -432,7 +432,7 @@ export default function Products() {
                   <p className="message mt-3">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which don't
+                    form, by injected humour, or randomised words which dont
                     look even slightly believable.
                   </p>
                 </div>
