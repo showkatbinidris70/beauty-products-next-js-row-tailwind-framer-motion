@@ -16,7 +16,7 @@ export default function TestimoinialsSwiperSlider() {
       <section className="testimoinial bg-[#FAFBFF] pb-10 pt-12">
         <div className="container max-w-7xl px-4">
           <div className="flex justify-between">
-            <div className="title">Testimoinials</div>
+            <div className="title text-3xl md:text-5xl">Testimoinials</div>
             <div className="flex gap-4">
               <div className="cursor-pointer">
                 <svg

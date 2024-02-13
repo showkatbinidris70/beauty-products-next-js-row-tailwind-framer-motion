@@ -50,7 +50,7 @@ export default function Home() {
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
-                  className="hero-right-image ms-10"
+                  className="hero-right-image ms-0 md:ms-10"
                 >
                   <div className="relative -ms-7 -mt-8">
                     <svg
@@ -576,7 +576,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="my-1 md:my-0 w-full ps-20">
+              <div className="my-1 md:my-0 w-full ps-5 md:ps-20">
                 <h4 className="a-bit mt-40">A bit</h4>
                 <h2 className="about-us-title mt-4">About Us</h2>
                 <p className="about-us-paragraph mt-8">
