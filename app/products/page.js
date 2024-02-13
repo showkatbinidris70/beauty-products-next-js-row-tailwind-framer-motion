@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Img_13 from "@/public/assets/images/image-13.png";
@@ -6,9 +7,9 @@ import Product_Img_1 from "@/public/assets/images/05f15e2874dc3bb3787db5ffa4fdb0
 import Product_Img_2 from "@/public/assets/images/4c2419ffddc6b2c95f5084b0f661bb86-2.png";
 import Product_Img_3 from "@/public/assets/images/4c2419ffddc6b2c95f5084b0f661bb86-3.png";
 import Product_Img_4 from "@/public/assets/images/7f51ca5b06f71476e81f0f8b3354913e-4.png";
-
 import Link from "next/link";
 import SwiperSlider from "../components/SwiperSlider";
+import { motion } from "framer-motion";
 
 export default function Products() {
   return (
@@ -53,16 +54,24 @@ export default function Products() {
               </div>
               <div className="flex gap-2 justify-between py-2">
                 <div className="flex gap-2  w-1/2 justify-between">
-                  <div className="rounded-lg bg-[#E8E9EB]">
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="rounded-lg bg-[#E8E9EB]"
+                  >
                     <Link href="#" className="text-5xl px-4 flex items-center">
                       -
                     </Link>
-                  </div>
-                  <div className="rounded-lg bg-[#E8E9EB]">
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="rounded-lg bg-[#E8E9EB]"
+                  >
                     <Link href="#" className="text-5xl px-4 flex items-center">
                       +
                     </Link>
-                  </div>
+                  </motion.div>
                 </div>
                 <div className="w-1/2 flex justify-end">
                   <Link
@@ -73,7 +82,16 @@ export default function Products() {
                   </Link>
                 </div>
               </div>
-              <div className="buy-now-btn text-center py-4">Buy Now </div>
+              <Link href="#">
+                <motion.div
+                  whileHover={{ scale: 1.01 }}
+                  whileTap={{ scale: 0.2 }}
+                  className="buy-now-btn text-center py-4"
+                >
+                  {" "}
+                  Buy Now{" "}
+                </motion.div>
+              </Link>
               <div className="flex gap-2">
                 <div className="relative py-2">
                   <div className="flex justify-center">
@@ -444,9 +462,13 @@ export default function Products() {
       <section className="products">
         <div className="container max-w-7xl px-4">
           <div className="grid gap-2 sm:grid-cols-2 py-5 sm:relative">
-            <div className="flex justify-center sm:justify-end items-end">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.9 }}
+              className="flex justify-center sm:justify-end items-end"
+            >
               <Image src={Product_Img_1} />
-            </div>
+            </motion.div>
             <div className="sm:absolute sm:bottom-10 sm:left-1/2">
               <div className="">
                 <h2>Customizable Straps</h2>
@@ -478,15 +500,23 @@ export default function Products() {
               </div>
             </div>
             <div className="order-1 sm:order-2">
-              <div className="flex md:justify-start justify-center">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.9 }}
+                className="flex md:justify-start justify-center"
+              >
                 <Image src={Product_Img_2} />
-              </div>
+              </motion.div>
             </div>
           </div>
           <div className="grid gap-2 sm:grid-cols-2 py-5 sm:relative">
-            <div className="flex sm:justify-end justify-center">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.9 }}
+              className="flex sm:justify-end justify-center"
+            >
               <Image src={Product_Img_3} />
-            </div>
+            </motion.div>
             <div className="flex items-center">
               <div className="">
                 <h2>Customizable Straps</h2>
@@ -518,9 +548,13 @@ export default function Products() {
               </div>
             </div>
             <div className="order-1 sm:order-2">
-              <div className="flex md:justify-start justify-center">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.9 }}
+                className="flex md:justify-start justify-center"
+              >
                 <Image src={Product_Img_4} />
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -680,9 +714,13 @@ export default function Products() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="flex justify-center items-center"
+            >
               <Image src={Img_13} />
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
