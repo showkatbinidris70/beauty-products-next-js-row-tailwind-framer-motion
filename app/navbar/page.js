@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import DropdownMenu from "../components/DropdownMenu";
+import Dropdown from "../components/Dropdown";
 
 export default function MainNavbar() {
   const toggleMenu = () => {
@@ -87,6 +87,9 @@ export default function MainNavbar() {
                 </svg>
               </a>
               <a href="#" class="toggle hidden md:flex w-full md:w-auto">
+                <Dropdown />
+              </a>
+              <a href="#" class="toggle hidden md:flex w-full md:w-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -137,7 +140,7 @@ export default function MainNavbar() {
               </a>
               <a
                 href="#"
-                class="toggle hidden md:flex w-full md:w-auto text-black"
+                className="toggle hidden md:flex w-full md:w-auto text-black whitespace-nowrap"
               >
                 Log out
               </a>
