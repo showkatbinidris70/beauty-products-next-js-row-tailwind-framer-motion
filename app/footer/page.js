@@ -129,7 +129,7 @@ export default function Footer() {
           className="container max-w-7xl px-4"
           style={{ borderTop: "1px solid #FFAF00" }}
         ></div>
-        <div className="container max-w-7xl flex justify-between">
+        <div className="container max-w-7xl flex justify-between px-4">
           <div className="text-sm text-white pt-2">
             Copyright © 2023 Asad Ali. All Right Reseved
           </div>

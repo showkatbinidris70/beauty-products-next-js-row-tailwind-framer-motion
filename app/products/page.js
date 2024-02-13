@@ -13,13 +13,13 @@ import SwiperSlider from "../components/SwiperSlider";
 export default function Products() {
   return (
     <div className="bg-[#000]">
-      <section className="add-to-cart bg-[#1E1F20] pt-32 pb-36">
+      <section className="add-to-cart bg-[#1E1F20] py-10 md:pt-32 md:pb-36">
         <div className="container max-w-7xl px-4">
-          <div className="grid gap-10 sm:grid-cols-2 px-20">
-            <div className="py-2">
+          <div className="grid gap-10 sm:grid-cols-2 px-3 md:px-20">
+            <div className="py-2 min-w-80 md:w-full">
               <SwiperSlider />
             </div>
-            <div className="py-2">
+            <div className="py-2 md:ms-10">
               <div className="title pb-2">
                 Contra Watches - Your Attractive Product title goes here
               </div>
@@ -739,12 +739,12 @@ export default function Products() {
       </section>
       <section className="add-to-cart bg-[#1E1F20] pt-32 pb-36">
         <div className="container max-w-7xl px-4">
-          <div className="grid gap-10 sm:grid-cols-2 px-20">
-            <div className="py-2">
+          <div className="grid gap-10 sm:grid-cols-2 px-3 md:px-20">
+            <div className="py-2 min-w-80 md:w-full">
               <SwiperSlider />
             </div>
-            <div className="py-2">
-              <div className="title pb-3 pt-1">
+            <div className="py-2 md:ms-10">
+              <div className="title pb-2">
                 Contra Watches - Your Attractive Product title goes here
               </div>
               <div>
@@ -775,7 +775,7 @@ export default function Products() {
                 <div className="regular-price line-through">$200/</div>
                 <div className="current-price">$99/-</div>
               </div>
-              <div className="flex gap-2 justify-between pt-3 pb-5">
+              <div className="flex gap-2 justify-between py-2">
                 <div className="flex gap-2  w-1/2 justify-between">
                   <div className="rounded-lg bg-[#E8E9EB]">
                     <Link href="#" className="text-5xl px-4 flex items-center">
@@ -797,7 +797,7 @@ export default function Products() {
                   </Link>
                 </div>
               </div>
-              <div className="buy-now-btn text-center py-4">Buy Now </div>
+              <div className="buy-now-btn text-center py-4 my-4">Buy Now </div>
             </div>
           </div>
         </div>
@@ -861,7 +861,7 @@ export default function Products() {
                     </svg>
                   </div>
                   <div className="text-white py-2">
-                    Write a scene (based ondeffecult is jksdfhvhissfddg dsfgg
+                    Write a scene based ondeffecult is jksdfhvhissfddg dsfgg
                     safghgj fdghjtyfd{" "}
                   </div>
                   <div>
@@ -914,7 +914,7 @@ export default function Products() {
               <div className="news-letter">
                 <div className="title text-center py-4">Newsletter</div>
                 <div className="desc text-center">
-                  Write a scene (based ondeffecult is jksdfhvhissfddg dsfgg
+                  Write a scene based ondeffecult is jksdfhvhissfddg dsfgg
                   safghg{" "}
                 </div>
               </div>
