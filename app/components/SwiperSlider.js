@@ -25,18 +25,22 @@ export default function SwiperSlider() {
                 onSwiper={
                     (swiper) => console.log(swiper)
             }>
-                <SwiperSlide>
-                    <Image src={Rectangle_Img_337}/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image src={Rectangle_Img_337}/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image src={Rectangle_Img_337}/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Image src={Rectangle_Img_337}/>
-                </SwiperSlide>
+                <div className="flex justify-center">
+                    <div>
+                        <SwiperSlide>
+                            <Image src={Rectangle_Img_337}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image src={Rectangle_Img_337}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image src={Rectangle_Img_337}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image src={Rectangle_Img_337}/>
+                        </SwiperSlide>
+                    </div>
+                </div>
             </Swiper>
         </div>
     );
